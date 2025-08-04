@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Student Payment Portal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-graduation-cap"></i> Student Payment Portal</h1>
+            <p>Pay your fees securely online</p>
+        </header>
+        
+        <div class="student-info">
+            <div>
+                <strong>Student:</strong> John Doe
+            </div>
+            <div>
+                <strong>ID:</strong> STU2023001
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="balance-card">
+                <h2>Your Current Balance</h2>
+                <div class="balance-amount">₦50,000.00</div>
+                <p>Due by August 15, 2025</p>
+            </div>
+            
+            <div class="fees-list">
+                <h3>Outstanding Fees</h3>
+                <div class="fee-item">
+                    <div class="fee-details">
+                        <div class="fee-name">Tuition Fee</div>
+                        <div>Due: Aug 15, 2025</div>
+                    </div>
+                    <div class="fee-amount">₦35,000.00</div>
+                    <div class="fee-status status-pending">Pending</div>
+                    <button class="btn btn-primary">Pay</button>
+                </div>
+                
+                <div class="fee-item">
+                    <div class="fee-details">
+                        <div class="fee-name">Accommodation Fee</div>
+                        <div>Due: Sept 10, 2025</div>
+                    </div>
+                    <div class="fee-amount">₦15,000.00</div>
+                    <div class="fee-status status-pending">Pending</div>
+                    <button class="btn btn-primary">Pay</button>
+                </div>
+                
+                <div class="fee-item">
+                    <div class="fee-details">
+                        <div class="fee-name">Library Fee</div>
+                        <div>Due: Aug 5, 2025</div>
+                    </div>
+                    <div class="fee-amount">₦5,000.00</div>
+                    <div class="fee-status status-paid">Paid</div>
+                    <button class="btn btn-success" disabled>Paid</button>
+                </div>
+            </div>
+            
+            <div class="payment-form">
+                <h3><i class="fas fa-credit-card"></i> Make Payment</h3>
+                <div class="form-group">
+                    <label for="feeType">Select Fee</label>
+                    <select class="form-control" id="feeType">
+                        <option value="">-- Select Fee to Pay --</option>
+                        <option value="tuition">Tuition Fee (₦35,000.00)</option>
+                        <option value="accommodation">Accommodation Fee (₦15,000.00)</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="amount">Amount (₦)</label>
+                    <input type="number" class="form-control" id="amount" placeholder="Enter amount">
+                </div>
+                
+                <div class="form-group">
+                    <label for="cardNumber">Card Number</label>
+                    <input type="text" class="form-control" id="cardNumber" placeholder="1234 5678 9012 3456">
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="expiry">Expiry Date</label>
+                        <input type="text" class="form-control" id="expiry" placeholder="MM/YY">
+                    </div>
+                    <div class="form-group">
+                        <label for="cvv">CVV</label>
+                        <input type="text" class="form-control" id="cvv" placeholder="123">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="cardName">Name on Card</label>
+                    <input type="text" class="form-control" id="cardName" placeholder="John Doe">
+                </div>
+                
+                <button class="btn btn-primary" style="width: 100%; padding: 12px; font-size: 1.1rem;">
+                    <i class="fas fa-lock"></i> Pay Now
+                </button>
+            </div>
+        </div>
+        
+        <footer>
+            <p>© 2025 Student Payment Portal</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
