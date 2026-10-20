@@ -10,7 +10,10 @@
 | | |
 |---|---|
 | **Author** | Dalla Samuel (CyberJKD) |
-| **Type** | Early web-dev practice project |
+| **Program** | SIWES (Students Industrial Work Experience Scheme) · task 2 of 2 · previous: [My Todo App](https://github.com/DallaSamuel/My-Todo-App) |
+| **Organization** | Crystal EdTech, Kaduna, Nigeria |
+| **Instructors** | Bright Uto Daniel · Ayodele Daniel |
+| **Date** | August 2025 |
 | **Platform** | Browser (client-side only) · hosted on GitHub Pages |
 | **Payment** | Simulated. No payment gateway, no server, no real charges |
 | **Live Demo** | [dallasamuel.github.io/Student-Payment-Portal](https://dallasamuel.github.io/Student-Payment-Portal/) |
@@ -200,7 +203,9 @@ Paying the **Accommodation Fee** marked **Tuition Fee** as Paid and left Accommo
 
 ## Where It Led
 
-This was an early web project. Since then my work has moved into **Azure cloud support and IT support**: Terraform, Active Directory, NTFS file servers, Splunk, Nessus and ServiceNow, all documented in the same style as this README.
+This was my second SIWES task at Crystal EdTech, after the [My Todo App](https://github.com/DallaSamuel/My-Todo-App). After these two tasks I could see the SIWES projects weren't lined up with where I wanted to go: cloud and security. So I built my own learning plan, the [CyberJKD Roadmap](https://dallasamuel.github.io/CyberJKD-Roadmap), and presented it to my instructors. Instead of pushing back, one of them adopted it for his own path, and from then on we worked through it together, learning side by side rather than as teacher and student.
+
+Since then my work has moved into **Azure cloud support and IT support**: Terraform, Active Directory, NTFS file servers, Splunk, Nessus and ServiceNow, all documented in the same style as this README.
 
 ---
 
