@@ -203,7 +203,7 @@ Paying the **Accommodation Fee** marked **Tuition Fee** as Paid and left Accommo
 
 ## Where It Led
 
-This was my second SIWES task at Crystal EdTech, after the [My Todo App](https://github.com/DallaSamuel/My-Todo-App). After these two tasks I could see the SIWES projects weren't lined up with where I wanted to go: cloud and security. So I built my own learning plan, the [CyberJKD Roadmap](https://dallasamuel.github.io/CyberJKD-Roadmap), and presented it to my instructors. Instead of pushing back, one of them adopted it for his own path, and from then on we worked through it together, learning side by side rather than as teacher and student.
+This was my second SIWES task at Crystal EdTech, after the [My Todo App](https://github.com/DallaSamuel/My-Todo-App). After these two tasks I could see the SIWES projects weren't lined up with where I wanted to go: cloud and security. So I built my own learning plan, the [CyberJKD Roadmap](https://dallasamuel.github.io/CyberJKD-Roadmap), and presented it to my instructors. Instead of pushing back, Ayodele Daniel adopted it for his own path, and from then on we worked through it together, learning side by side rather than as teacher and student.
 
 Since then my work has moved into **Azure cloud support and IT support**: Terraform, Active Directory, NTFS file servers, Splunk, Nessus and ServiceNow, all documented in the same style as this README.
 
